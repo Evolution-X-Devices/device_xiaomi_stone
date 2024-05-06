@@ -41,3 +41,8 @@ void set_variant_props(const variant_info_t variant) {
         property_override("ro.build.description", fingerprint_to_description(variant.build_fingerprint));
     }
 }
+
+void set_soc_props() {
+    std::string soc_name = GetProperty("ro.vendor.qti.soc_model", "");
+    property_override("ro.soc.model", soc_name);
+}

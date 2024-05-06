@@ -26,4 +26,6 @@ void search_variant(const std::vector<variant_info_t> variants);
 
 void set_variant_props(const variant_info_t variant);
 
+void set_soc_props();
+
 #endif // LIBINIT_VARIANT_H
