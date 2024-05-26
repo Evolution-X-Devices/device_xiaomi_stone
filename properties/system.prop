@@ -59,6 +59,9 @@ persist.log.tag.slpi=S
 persist.log.tag.RBS=S
 persist.log.tag.LSPosed=S
 persist.log.tag.LSPosed-Bridge=S
+persist.log.tag.BatteryManagerService=S
+persist.log.tag.BatteryService=S
+persist.log.tag.BatteryStats=S
 
 # IMS Debugging
 persist.vendor.ims.disableADBLogs=1
