@@ -368,7 +368,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayStone \
     SettingsProviderOverlayStone \
     SystemUIOverlayStone \
-    TelephonyOverlayStone
+    TelephonyOverlayStone \
+    FrameworksResTargetOverlayStone
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
