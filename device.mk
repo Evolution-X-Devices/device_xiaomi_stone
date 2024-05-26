@@ -46,7 +46,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # ART
 ART_BUILD_TARGET_NDEBUG := true
-rART_BUILD_TARGET_DEBUG := false
+ART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
