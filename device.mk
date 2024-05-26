@@ -46,7 +46,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # ART
 ART_BUILD_TARGET_NDEBUG := true
-ART_BUILD_TARGET_DEBUG := false
+rART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
@@ -456,12 +456,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext-privapp-permissions-qti.xml
-
-# Remove unwanted packages
-ifeq ($(TARGET_DEBLOAT),true)
-PRODUCT_PACKAGES += \
-    RemovePackages   
-endif
 
 # RIL
 PRODUCT_PACKAGES += \
