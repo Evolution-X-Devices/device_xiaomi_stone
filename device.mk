@@ -7,6 +7,9 @@
 # Call the MiuiCamera setup
 $(call inherit-product, vendor/xiaomi/stone-miuicamera/miuicamera.mk)
 
+# Call the ViperFX Config
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Vendor Dolby
 ifeq ($(Vendor_Dolby),true)
 $(call inherit-product, vendor/dolby/dolby.mk)
