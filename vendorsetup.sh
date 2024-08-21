@@ -2,7 +2,7 @@
 git clone https://github.com/Arijit78/vendor_dolby_oplus.git -b udc vendor/dolby
 
 # Clone hardware xiaomi
-git clone https://github.com/crdroidandroid/android_hardware_xiaomi.git -b 14.0 hardware/xiaomi
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi
 
 # Clone Kernel Source
 git clone https://github.com/crdroidandroid/android_kernel_qcom_sm8350.git -b 14.0 kernel/xiaomi/sm6375
